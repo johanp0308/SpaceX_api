@@ -1,5 +1,7 @@
-import {getAllImg} from "./storages/v3.js"
+import apiQuerys from "./storages/v3.js"
 
-let dos = await getAllImg();
+// let dos = await apiQuerys.getAllImgLaunches();
 
-console.log(dos)
+let imgRock = await apiQuerys.getAllImgRockets();
+
+console.log(imgRock);
